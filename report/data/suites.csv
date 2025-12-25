@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 11 17:42:16 CST 2025","Thu Dec 11 17:42:17 CST 2025","458","tests","test_weixin","","","","test_get_token",""
+"passed","Thu Dec 11 17:42:17 CST 2025","Thu Dec 11 17:42:17 CST 2025","194","tests","test_weixin","","","","test_get_tags",""
+"passed","Thu Dec 11 17:42:17 CST 2025","Thu Dec 11 17:42:17 CST 2025","197","tests","test_weixin","","","","test_create_tags",""

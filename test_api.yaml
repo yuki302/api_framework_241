@@ -1,0 +1,15 @@
+name:  接口测试
+
+reqest:
+  method: get
+  url: https//www.baidu.com
+
+extract:
+  status_code: status_code
+  code: json['code']
+  msg: json()['msg']
+
+validate:
+  - ${status_code} == 200
+  - ${code} == 0
+  - ${msg}  == "收藏成功 "
